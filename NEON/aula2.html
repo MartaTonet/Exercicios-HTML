@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEON2-HTML</title>
+</head>
+<body>
+
+    <!-- O comando abaixo serve para criar formulário. O action serve para colocar onde será enviado os dados que foram preenchidos no formulário -->
+
+    <form action="" method="POST">
+        <div>
+
+            <!-- este comando é para criar o campo de formulario e o placeholder é o que aparece dentro do formulario informando o que diditar -->
+                <!-- o ID representa o o input ou seja o campo nome será para colocar nome. O for represente para. -->
+            <label for="email">Email:</label>
+            <input
+             type="email" name="e-mail" 
+              id="email"
+             placeholder="Digite o seu email">
+
+        </div>
+
+        <p>
+            <div>
+                <label for="senha">Senha</label>
+                <input
+                type="password"
+                id="senha"
+                placeholder="Digite sua senha">
+            </div>
+        </p>
+        
+
+        <p>
+            <div>
+            
+                <label for="numero">Número</label>
+                <input
+                type="number"
+                id="numero"
+                placeholder="Digite seu número">
+            </div>
+        </p>
+
+        <p>
+            
+            <div>
+            
+                <label for="numero">Data de aniversário</label>
+                <input
+                type="date"
+                name="aniversario"
+                id="aniversário"
+                placeholder="Digite seu número">
+            </div>
+        </p>
+
+     
+        <p>
+            
+            <div>
+            
+                <label for="nivel">Nível</label>
+                <input
+                type="range" min="0" max="10"
+                name=""
+                id="nivel"
+                placeholder="Digite seu número">
+            </div>
+        </p>
+
+        <select name="opcoes">
+            <option value="op1">Opção 1</option>
+            <option value="op2">Opção 2</option>
+            <option value="op3">Opção 3</option>
+        </select>
+
+        <p>
+            <div>
+                <label for="arquivo">Anexar arquivo</label>
+                <input
+                type="file"
+                name="arquivo"
+                id="arquivo">
+            </div>
+        </p>
+
+        <p>
+            <div>
+                <textarea
+                name="texto"
+                placeholder="Deixe seu comentário"
+                cols="30" rows="5"></textarea>
+            </div>
+            <button type="button">Botão</button>
+            <button type="submit"">Enviar</button>
+            <button type="reset">Limpar</button>
+
+        </p>
+    </form>
+           
+
+
+    
+</body>
+</html>
