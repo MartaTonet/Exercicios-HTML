@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+nav ul {
+  display: flex;
+  width: 100%;
+}
+
+li {
+ flex-grow: 1;
+}
+
+
+
+.foto{
+    height: 500px;
+    width:500px;
+    max-width: 100%;
+    /* border-radius: 50%; */
+    border-radius: 12px;
+    box-shadow: 5px 7px 7px rgb(214, 19, 221);
+    
+    
+    
+    
+}
+
+body{
+background-color:white;
+/* align-items: center; */
+}
+
