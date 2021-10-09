@@ -1,8 +1,26 @@
 @charset "UTF-8";
 
+header{
+  background-color: #0e6181;
+
+}
+a{
+  color: #FFFFFF;
+  opacity: 0.7;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+a:hover{
+  opacity: 1;
+}
+
 nav ul {
   display: flex;
   width: 100%;
+  color: #FFFFFF;
+  
 }
 
 li {
@@ -12,20 +30,79 @@ li {
 
 
 .foto{
-    height: 500px;
-    width:500px;
-    max-width: 100%;
-    /* border-radius: 50%; */
-    border-radius: 12px;
-    box-shadow: 5px 7px 7px rgb(214, 19, 221);
+
+  top: 25px;
+left: 22px;
+width: 883px;
+height: 374px;
+border: 1px solid #707070;
+opacity: 1;
     
+    border-radius: 12px;
+    box-shadow: 5px 7px 7px rgb(8, 134, 156);
+     
     
     
     
 }
 
+.titulo{
+  height: 100px;
+  /* border: 1px solid #8bc0bd; */
+  text-align: left;
+  color: #FFB300  
+
+}
+
+.card__titulo{
+  font-family: "Montserrat";
+  font-size: 16px;
+  line-height: 2;
+}
+
+.ingrediente{
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+
+  text-align: left;
+  color: #FFB300
+}
+
+.preparo{
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+
+  text-align: left;
+  color: #FFB300
+}
+
+.montar{
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+
+  text-align: left;
+  color: #FFB300
+}
+
+.video{
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+
+  text-align: left;
+  color: #FFB300
+}
+
+.canal{
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+
+  text-align: left;
+  color: #FFB300
+}
+
+
 body{
 background-color:white;
-/* align-items: center; */
+font-family: "Open Sans", sans-serif;
 }
 
